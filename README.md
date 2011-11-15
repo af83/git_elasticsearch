@@ -24,7 +24,9 @@ repo_index.init!
 # Indexes the repo                 
 repo_index.index!
 ```
+
 To search the code:
+
 ```ruby
 Tire.search repo_index.index_name do
    query do
